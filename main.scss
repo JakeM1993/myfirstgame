@@ -1,0 +1,36 @@
+$color1b: #edeae3;
+$color1: #307592;
+$color2: #587989;
+$color3: #807d80;
+$color4: #a88277;
+$breakpoint-tablet: 426px;
+$breakpoint-laptop: 769px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #307592;
+    background-color: #edeae3;
+}
+    
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #a88277;
+    border-radius: 6px;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #a88277;
+    border-radius: 6px;
+    width: 60%;
+    margin: 20px auto;
+  }
