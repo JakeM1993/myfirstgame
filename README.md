@@ -6,12 +6,25 @@ aims:
 
 will need: 
 
-    a database of words to draw from whenever a new game is started -> a database for each difficulty level of words (easy = 3 letter words, medium = 5 letter words, hard = 7 letter words, insane = 9+ letter words) 
+    start with one word  
+    and a function for guessing letters
+    whenever a letter is guessed -> check if the letter is in the word -> if it is fill that letter -> if it's not display red copy of letter off to the side and fill the first/next part of the stickman in the noose.
+    create a counter -> incorrect guess adds to counter -> incorrect guess x6 = game over. -> prompt "try again" window. 
+    new game -> activates function that creates elements equal to length of word and displays those elements under the noose. 
+
+    -----after above is complete---
+
+    add more than one word. 
+
+    ------after above is complete -------
+
+    add more game modes
 
 ---main menu---
 
 background -> loop of the hangman picture filling up.
 list of options you can select -> quick Game, time trial, survival mode, High scores, options. 
+focus on quick game and options then add more later.
 
 ---quick game---
 click on "quick game" -> select difficulty (easy, medium, hard, insane) -> game starts.

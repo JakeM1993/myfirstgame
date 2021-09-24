@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: #307592;
   background-color: #edeae3;
+  text-decoration: none;
 }
 
 .title {
@@ -15,15 +16,24 @@
   border-radius: 6px;
   width: 60%;
   margin: 20px auto;
+  padding: 10px;
 }
 
 .main-menu {
+  list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  flex-direction: column;
+  height: 50%;
+  border-top: 2px solid #a88277;
   border-bottom: 2px solid #a88277;
   border-radius: 6px;
   width: 60%;
   margin: 20px auto;
+}
+
+.menu {
+  margin: 10px;
+  padding: 10px;
 }
