@@ -1,0 +1,43 @@
+@use "./abstracts" as *;
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.newGame__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    color: $color1;
+    border: 5px solid $color4;
+    border-radius: 7px;
+    background-color: $color4;
+}
+
+.options__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    color: $color1;
+    border: 5px solid $color4;
+    border-radius: 7px;
+    background-color: $color4;
+}
