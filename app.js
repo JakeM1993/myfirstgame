@@ -17,8 +17,6 @@ newGame__button.addEventListener("click", () => {
     hidden__word.style.display = "flex";
 })
 
-// letter_buttons.map(letter)
-
 letter_buttons.forEach(button => {
     button.addEventListener("click", () => {
         console.log(button.innerText)
@@ -28,18 +26,7 @@ letter_buttons.forEach(button => {
     })
 })
 
-// letter_buttons.addEventListener("click", (event) => {
-//     letterValue = event.target.innerText
-//     console.log(letterValue)
-//     // letterGuess.push(letterValue)
-//     // console.log(letterGuess)
-//     // hidden__letters[letterValue]
-//     // hidden__letters.map(letter => 
-//     // //     {
-//     // //         const letterGuess = letterValue 
-//     // //         letter.push(letterGuess)
-//     // //     console.log(letter [letterValue])
-//     // // })
-//     if (letterGuess == hidden__letters[i]) {
+// now that the console is pushing the innerText value of the clicked on letter button from the letter_buttons array into the letterGuess array I plan on building a function that compares the letterGuess array to the hidden__letters array and in any instance where the two arrays share a value then I will tell the hidden letter to add revealed__letter to it's classList and remove hidden__letter from it also. 
+// I know I will use the following two lines to do so but I need to learn how to compare the two arrays and have a function to do something if they share values. 
 //     hidden__letter.classList.add('revealed__letter');
 //     hidden__letter.classList.remove('hidden__letter');
