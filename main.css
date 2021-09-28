@@ -4,8 +4,63 @@
   align-items: center;
   flex-direction: column;
   color: #307592;
+  padding: 5px;
   border-bottom: 5px solid #a88277;
   border-radius: 10px;
+}
+
+.newGame__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+  color: #307592;
+  border: 5px solid #a88277;
+  border-radius: 7px;
+  background-color: #a88277;
+}
+
+.newGame__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+  color: #307592;
+  border: 5px solid #a88277;
+  border-radius: 7px;
+  background-color: #a88277;
+}
+
+.hidden__letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+  border-bottom: 2px solid #a88277;
+  border-radius: 4px;
+  width: 35px;
+  color: #edeae3;
+}
+
+.revealed__letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+  border-bottom: 2px solid #a88277;
+  border-radius: 4px;
+  width: 35px;
+  color: #307592;
 }
 
 .letter__buttons {
@@ -28,10 +83,30 @@
   border-radius: 10px;
   height: 30px;
   width: 30px;
+  margin: 5px;
+}
+
+.letter__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #307592;
+  background-color: #a88277;
+  border: 5px solid #a88277;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
 }
 
 .y {
   grid-column: 4/5;
+}
+
+* {
+  background-color: #edeae3;
 }
 
 section {
@@ -50,28 +125,12 @@ section {
   list-style-type: none;
 }
 
-.newGame__button {
+.hidden__word {
+  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
-  margin: 20px;
-  color: #307592;
-  border: 5px solid #a88277;
-  border-radius: 7px;
-  background-color: #a88277;
-}
-
-.options__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin: 20px;
-  color: #307592;
-  border: 5px solid #a88277;
-  border-radius: 7px;
-  background-color: #a88277;
+  list-style-type: none;
+  display: none;
 }

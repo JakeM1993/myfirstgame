@@ -1,5 +1,9 @@
 @use "./abstracts" as *;
 
+* {
+    background-color: $color1b;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -16,28 +20,17 @@ section {
     list-style-type: none;
 }
 
-.newGame__button {
+.hidden__word {
+    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    margin: 20px;
-    color: $color1;
-    border: 5px solid $color4;
-    border-radius: 7px;
-    background-color: $color4;
+    list-style-type: none;
+    display: none;
 }
 
-.options__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    margin: 20px;
-    color: $color1;
-    border: 5px solid $color4;
-    border-radius: 7px;
-    background-color: $color4;
-}
+
+
+
+
