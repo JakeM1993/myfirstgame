@@ -105,6 +105,18 @@
   grid-column: 4/5;
 }
 
+.win {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+  width: 35px;
+  color: #307592;
+  display: none;
+}
+
 * {
   background-color: #edeae3;
 }

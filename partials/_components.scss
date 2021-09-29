@@ -120,3 +120,15 @@ border-radius: 10px;
     grid-column: 4/5;
 }
 
+
+.win {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+    width: 35px;
+    color: $color1;
+    display: none;
+}
